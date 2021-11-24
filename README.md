@@ -12,9 +12,9 @@ Project title: Picnic Games website
 
                  Le Dam quan (quanldts2109022@fpt.edu.vn) Student1334013
 
-                 Sar Lavi (lavists2109015@fpt.edu.vn) Student1322493
+                 Sar Lavi    (lavists2109015@fpt.edu.vn)  Student1322493
                  
-                 Vo Tuan Huy (huyvtts2109016@fpt.edu.vn) Student1322496
+                 Vo Tuan Huy (huyvtts2109016@fpt.edu.vn)  Student1322496
                  
 ============================
 
