@@ -1,0 +1,574 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <!--CSS FILE-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <!-- FAQs css link -->
+    <link rel="stylesheet" href="css/FAQs.css">
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <link rel="stylesheet" href="css/FAQs.css">
+    <!-- FAQs css link END-->
+
+    <!--Font Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font Css End-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" type="text/css">
+    <!--CSS FILE END-->
+
+
+
+    <!--SCRIPT FILE-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--SCRIPT FILE END-->
+</head>
+
+<body>
+    <!--NavBar Start-->
+    <section class="header d-flex flex-column justify-content-center align-content-center">
+
+        <nav class="navbar navbar-expand-lg navbar-dark shadow">
+            <div class="container">
+                <a href="#intro" class="navbar-brand">
+                    <img src="Img/nen trang.png" class="img img-fluid align-middle px-sm-1" />
+                    <span class="lead fw-bolder" style="color: #FFEA00;">Picnic Games</span>
+                </a>
+
+
+                <!--Toggle Hamburger-->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Navbar link-->
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" target="_self">HOME</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> ACTIVITIES </a>
+                            <ul class="dropdown-menu" style="background-color: black;">
+                                <div class="nav-subitem">
+                                    <li><a class="dropdown-item" href="#activities"> ABOUT</a></li>
+                                </div>
+
+                                <div class="nav-subitem">
+                                    <li><a class="dropdown-item" href="indoor.html" target="_self">INDOOR</a></li>
+                                </div>
+
+                                <div class="nav-subitem">
+                                    <li><a class="dropdown-item" href="#"> OUTDOOR</a></li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RESTING STOP</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Section Intro -->
+        <section id="" class="m-2">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-10 col-lg-7 py-3 py-lg-2 mt-md-5 mt-lg-0 rounded text-center "
+                        style="background-color: rgba(0, 0, 0, 0.5);">
+                        <h1>
+                            <div class="h2 fw-bold" style="color:#FFEA00;">You must be wondering about this topic,
+                                right?
+                            </div>
+                            <div class="h4" style="color: whitesmoke;">So let's start with the FAQs page.</div>
+                        </h1>
+                        <a href="#topic" class="btn btn-lg mb-2 rounded-right"
+                            style="background-color:#ff474c; color: whitesmoke;">Discover Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Intro End -->
+    </section>
+    <!--NavBar End-->
+
+    <!-- FAQs item start -->
+    <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg" id="topic">
+        <ul class="cd-faq__categories">
+            <li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Basics</a></li>
+            <li><a class="cd-faq__category truncate" href="#mobile">Activities</a></li>
+            <li><a class="cd-faq__category truncate" href="#account">Indoor</a></li>
+            <li><a class="cd-faq__category truncate" href="#payments">Outdoor</a></li>
+            <li><a class="cd-faq__category truncate" href="#privacy">Places to Stay</a></li>
+            <!-- 			<li><a class="cd-faq__category truncate" href="#delivery">Stay Connected</a></li> -->
+        </ul> <!-- FAQs_categories (sidebar) -->
+
+        <div class="cd-faq__items">
+
+            <!-- faq__group 1 start -->
+
+            <ul id="basics" class="cd-faq__group">
+                <li class="cd-faq__title">
+                    <h2>Basics</h2>
+                </li>
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Is this activity free?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                                Of course, this activity is completely free, as long as you have time you can have fun
+                                with your family and friends.
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>What do I need for a picnic?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                                + A Picnic Basket, Hamper, Tote, Cooler, or Backpack <br>
+                                + A Picnic Blanket <br>
+                                + Plates, Glasses, Utensils, and Napkins <br>
+                                + Corkscrew or Bottle Opener <br>
+                                + Ice Packs or Thermo <br>
+                                + Cutting Board and Knife <br>
+                                + Trash Bags <br>
+                                + Paper Towels or Wipes <br>
+                                + Atmosphere
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Will I be taught picnic skills?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                                Yes you will !!!, Let visit out Youtube channel -> youtube.com/PicnicGame and You will
+                                be taught completely online for free
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Are animals allowed?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                                You can bring your pet into places where there are no signs prohibiting animals, and you
+                                are responsible for their poop!!!
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Are there age restrictions for activities?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>Activities will be divided into different themes and ages. First priority is safety!</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+            </ul>
+            <!-- faq__group 1 end -->
+
+
+            <!-- faq__group 2 start -->
+            <ul id="mobile" class="cd-faq__group">
+                <li class="cd-faq__title">
+                    <h2>Activities</h2>
+                </li>
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Is it safe for kid?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>You must ensure that you always watch your children and do not allow them to play
+                                dangerous games.</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Can I quit the game if it nessescary?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                                Yes you can but you need to inform your friends/family about the work in case they don't
+                                know and will cause conflict with each other.
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>How do I pay for this activities?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>The games can be free if you play it indoors or outdoors but it needs to be a public
+                                place and not an amusement park like disneyland because it will probably charge a fee
+                                and you need to pay for it :) </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+            </ul>
+
+            <!-- faq__group 2 end -->
+
+            <!-- faq__group 3 start -->
+            <ul id="account" class="cd-faq__group">
+                <li class="cd-faq__title">
+                    <h2>Indoor</h2>
+                </li>
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Is it safe for kids?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>well... it's an indoor game, it may not harm the kids and you need to keep an eye on
+                                them!</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>How to play it?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>You can refer to our youtube page or other sites and these will be the skills you need to
+                                win the game.</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>What kind of food should I bring on indoor
+                            picnic?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                            <h3>Here are some of our recommendations.</h3>
+                            + Sausage and Arugula Pasta Salad. <br>
+                            + Pappardelle with Mixed Mushrooms, Ricotta, and Walnuts,... <br>
+                            + Jude's Perfect Potato Salad. <br>
+                            + Nut and Cheese Gougères,.. <br>
+                            + Pigs in a Blanket with Herbed Mustard Dipping Sauce,.. <br>
+                            + Deviled Eggs With Crab.
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+            </ul>
+            <!-- faq__group 3 end -->
+
+
+            <!-- faq__group 4 start -->
+            <ul id="payments" class="cd-faq__group">
+                <li class="cd-faq__title">
+                    <h2>Outdoor</h2>
+                </li>
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Do I have to go to the activity site myself?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>you can go with your family and friends
+                                to be less lonely but you can also go alone but it will be less fun</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Are there dangerous wildlife?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>It depends on the location you choose, but we still encourage you to
+                                research carefully in advance about the place you are going to and prepare
+                                the necessary items in case of danger or necessity.</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>What kind of food should I bring on outdoor
+                            picnic?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>Think salads, pastries, hard-boiled eggs, pickles, cold dips, fresh-cut veggies, and
+                                more.
+                                Any snack foods that don't need a change in temperature (chips, crackers, nuts) are also
+                                perfect picnic foods as well.
+                                So as you plan out the picnic recipes for your next adventure, be sure to keep that in
+                                mind</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+            </ul> <!-- faq__group -->
+
+            <ul id="privacy" class="cd-faq__group">
+                <li class="cd-faq__title">
+                    <h2>Stop Point</h2>
+                </li>
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Where should I find a place to rest?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>In our website there is a page called Resting Stop
+                                and you can use it to refer to where you can rest but we still
+                                recommend you do a thorough research on where you are going.</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Is the place clean?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>Well it depends on the cleanliness of the place you choose,
+                                the places we share on the site are purely five-star places
+                                and the quality is not in question.</p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <li class="cd-faq__item">
+                    <a class="cd-faq__trigger" href="#0"><span>Is there any refund?</span></a>
+                    <div class="cd-faq__content">
+                        <div class="text-component">
+                            <p>
+                                According to the number of people we consulted,
+                                to get a refund you need a good and valid reason,
+                                proofs such as hygiene or safety and you can use it as proof of your refund
+                                if not If you have the ones we mentioned above... it's hard to get a refund :)
+                            </p>
+                        </div>
+                    </div> <!-- faq__content -->
+                </li>
+
+                <!-- faq__group 4 end -->
+        </div>
+
+        <a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+
+        <div class="cd-faq__overlay" aria-hidden="true"></div>
+    </section>
+    <!-- FAQs item end -->
+
+    <!-- comment form start -->
+
+    <div class="form-group mb-3 mx-2 ">
+        <label for="comment">Type you question here :</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+
+    <!-- button send start-->
+    <button class="mb-3 mx-2" id="send">
+        <div class="svg-wrapper-1 ">
+            <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path fill="currentColor"
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <span>Send</span>
+    </button>
+    <!-- button send end -->
+
+    <script type="text/javascript">
+        $("#send").click(function () {
+            var fired_button = $(this).val();
+            alert("Your request has been received !");
+        });
+    </script>
+
+    <!-- comment form end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-white">
+
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-around pt-1">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col col-md-3 col-lg-2 text-center col-xl-1 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4" style="color: #ff474c;">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Activities</a>
+                        </p>
+                        <p>
+                            <a href="FAQs.html" class="text-reset">FAQS</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact Us</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4" style="color: #ff474c;">
+                            Contact Us
+                        </h6>
+                        <p>
+                            <i class="fas fa-home me-3"></i>
+                            590 Cách Mạng Tháng Tám, Phường 11, Quận 3, Thành phố Hồ Chí
+                            Minh 723564
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> 1800-1779</p>
+                        <p><i class="fas fa-print me-3"></i> 1800-1779</p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 col-lg-6 mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold" style="color: #ff474c;">
+                            <i class="fas fa-gem me-3"></i>Address
+                        </h6>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.2773997461!2d106.6662743!3d10.7868348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1sen!2s!4v1637962975771!5m2!1sen!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+
+
+
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span style="color: #ff474c;">Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a class="btn btn-outline-light btn-floating m-1 " href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> by Picnic Games. All rights reserved
+            <div class="d-block d-md-inline-block">
+                <a href="#" class="text-reset p-4" style="text-decoration: none;">Privacy Policy</a>
+                <a href="#" class="text-reset " style="text-decoration: none;">Term & Use</a>
+            </div>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!--Scroll to top button-->
+    <button id="scrolltotop" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left"
+        title="Go to the top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- script FAQs -->
+    <script src="js/util(FAQs).js"></script> <!-- util functions included in the CodyHouse framework -->
+    <script src="js/main(FAQs).js"></script> <!-- main script -->
+
+</body>
+<script>
+    /*Button scroll to top */
+    let btnscrolltotop = document.querySelector("#scrolltotop");
+    btnscrolltotop.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    });
+    /*Button scroll to top end*/
+
+    /*Tooltips BootStrap*/
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+/*Tooltips BootStrap End*/
+</script>
+
+
+
+
+</html>
