@@ -22,7 +22,7 @@ github report link:
 
 ============================
 
-eProject published at: 
+eProject published at: https://lavisar.github.io/eProject/
 
 ============================
 
