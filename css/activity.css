@@ -1,0 +1,239 @@
+/*(----------Navbar-CSS---------)*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url("../img/indoor-picnic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+}
+
+
+.lead{
+    font-style: italic;
+}
+
+.img:hover{
+    transform: rotate(-5deg);
+    transition: linear 0.4s;
+}
+
+iframe{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 1rem;
+}
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.img {
+    margin-right: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img {
+    width: 75px;
+    margin-right: 1rem;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    .img {
+    width: 40px;
+    margin-right: 1rem;
+}
+}
+
+@media only screen and (max-width: 509px) {
+    .navbar-nav{
+        background-color: black !important;
+        padding-left: 10px;
+    }
+}
+
+
+.navbar-nav .nav-link {
+    color: #FFEA00 !important;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #FF5733 !important;
+}
+
+.dropdown-item {
+    color: whitesmoke !important;
+}
+
+.navbar-nav .nav-subitem:hover .dropdown-item {
+    color: #FF5733 !important;
+    background-color: black !important;
+}
+
+/*(----------Navbar-CSS-END--------)*/
+
+/*Review Lists*/
+img {
+    border: 0;
+}
+
+.cnt-row{
+    margin: auto;
+}
+.mgb-20 {
+    margin-bottom: 20px;
+}
+.wpx-100 {
+    width: 100px;
+}
+.img-round {
+    border-radius: 50%;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.rating-box {
+    width: 130px;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FBC02D;
+    color: #fff
+}
+
+.rating-label {
+    font-weight: bold
+}
+
+.rating-bar {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px
+}
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 5px
+}
+
+.bar-5 {
+    width: 70%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-4 {
+    width: 30%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-3 {
+    width: 20%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-2 {
+    width: 10%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-1 {
+    width: 0%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+td {
+    padding-bottom: 10px
+}
+
+.star-active {
+    color: #FBC02D;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.star-active:hover {
+    color: #F9A825;
+    cursor: pointer
+}
+
+.star-inactive {
+    color: #CFD8DC;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+/*Review Lists End*/
+
+/*(----------Footer-CSS---------)*/
+.btn-floating:hover {
+    background-color: #ff474c;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-reset:hover {
+    color: #ff474c !important;
+}
+
+/*(----------Footer-CSS-END-------)*/
+
+/*(----------Scroll To Top button-------)*/
+#scrolltotop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #e62739;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#scrolltotop:active{
+    background: #cc2333;
+}
+/*(----------Scroll To Top button end-------)*/

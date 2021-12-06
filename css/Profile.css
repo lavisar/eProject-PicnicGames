@@ -1,0 +1,49 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    border: thin solid;
+}
+
+main {
+
+    margin: 0.5rem;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding-left: 0;
+}
+
+.input-list {
+    margin: 1rem;
+    width: 650px;
+    margin: auto;
+}
+
+.input-element {
+    padding: 1rem;
+}
+
+#input-label {
+    display: inline-block;
+    min-width: 40%;
+    vertical-align: top;
+}
+
+input {
+    display: inline-block;
+    width: 300px;
+}
+
+span {
+    display: inline-block;
+}
+
+small {
+    display: block;
+    text-align: justify;
+}

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--CSS FILE-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" type="text/css">
+    <link rel="stylesheet" href="css/home.css">
+    <!--CSS FILE END-->
+
+     <!--Font Css-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <!--Font Css End-->
+
+    <!--SCRIPT FILE-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+    <!--SCRIPT FILE END-->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            line-height: 2rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!--NavBar Start-->
+    <section class="header d-flex flex-column justify-content-center align-content-center">
+
+        <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+            <div class="container">
+                <a href="#intro" class="navbar-brand">
+                    <img src="img/nen trang.png" class="img img-fluid align-middle px-sm-1" />
+                    <span class="lead fw-bolder" style="color: #FFEA00;">Picnic Games</span>
+                </a>
+
+
+                <!--Toggle Hamburger-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Navbar link-->
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> ACTIVITIES </a>
+                            <ul class="dropdown-menu" style="background-color: black;">
+                                <div class="nav-subitem">
+                                    <li><a class="dropdown-item" href="#activities">GALLERY</a></li>
+                                </div>
+
+                                <div class="nav-subitem">
+                                    <li><a class="dropdown-item" href="indoor.html" target="_self">INDOOR</a></li>
+                                </div>
+
+                                <div class="nav-subitem">
+                                    <li><a class="dropdown-item" href="outdoor.html"> OUTDOOR</a></li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PLACES TO STAY</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Section Intro -->
+        <section id="intro" class="m-2">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-start text-md-center py-3 py-lg-2 rounded"
+                        style="background-color: rgba(149, 165, 166, 0.6);">
+                        <h1>
+                            <div class="display-6 fw-bold" style="color: #FFEA00;">GRACIOUS WELCOME</div>
+                            <div class="lead " style="color: white;">Let's start our journey</div>
+                        </h1>
+                        <a href="#topic" class="btn btn-lg mb-2 rounded-right"
+                            style="background-color:#ff474c; color: white;">Discover Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Intro End -->
+    </section>
+    <!--NavBar End-->
+
+
+
+    <!--Introduction-->
+    <div class="container-fluid" id="topic">
+        <div class="text-center mt-5 mb-1 py-3">
+            <h1 class="fw-bold">Inside this journey....</h1>
+            <p class="lead">
+                A quick glance at the overall about picnic activities you may enjoy
+            </p>
+        </div>
+
+        <div class="container-fluid">
+            <section class="py-md-5" id="features">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h2 class="fw-bolder mb-0 text-center">Our Mission</h2>
+                        <img src="img/app.png" class="img-fluid mt-5">
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="container-fluid pb-5 pb-md-0">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature  bg-gradient text-white rounded-3 mb-3"><i
+                                            class="bi bi-collection"></i></div>
+                                    <h2 class="h5">Introduction</h2>
+                                    <p class="mb-0">We encourage people do excercises. With a bunch of selections,
+                                        people
+                                        might enjoy it.</p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature  bg-gradient text-white rounded-3 mb-3">
+                                        <i class="bi bi-info"></i>
+                                    </div>
+                                    <h2 class="h5">Classification</h2>
+                                    <p class="mb-0">Including Indoor and
+                                        Outdoor activities for all type of ages (Kids ,
+                                        Males, Females and Family games.
+                                        .</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature  bg-gradient text-white rounded-3 mb-3">
+                                        <i class="bi bi-bullseye"></i>
+                                    </div>
+                                    <h2 class="h5">Plan</h2>
+                                    <p class="mb-0">Stick to our plan, you will soon get in shape
+                                        and have an unforgettable memory.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature  bg-gradient text-white rounded-3 mb-3"><i
+                                            class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Outcome</h2>
+                                    <p class="mb-0">We are looking forward to help people enjoy their life but also
+                                        opening a rest service.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--Introduction-->
+
+    <!--Picnic Games Info-->
+    <section id="activities" class="info-1 d-flex justify-content-center align-items-end">
+        <div class="container mb-3 py-2 mb-md-1 mb-lg-0 py-lg-4 d-flex
+        justify-content-center align-items-center">
+            <div class="row text-center">
+                <div class="col rounded pb-1 px-lg-4 py-2 mb-5 mb-md-0" id="picnic-info-1">
+                    <h1 class="fw-bold">Indoor Activity</h1>
+                    <h4 class="pb-2">Wow. So. Attractive</h4>
+                    <a href="indoor.html" target="_self" rel="follow" aria-label="Learn more about Indoor Activity"
+                        style="text-decoration: none; color: #ff474c;">
+                        Let's find out
+                        <i class="bi bi-chevron-compact-right"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="info-2 d-flex justify-content-center">
+        <div class="container my-5">
+            <div class="row text-center">
+                <div class="col rounded-3 p-3 " id="picnic-info-2">
+                    <h1 class="fw-bold">Outdoor Activity</h1>
+                    <h4 class="pb-2">Hmm...Even Better</h4>
+                    <a href="#" target="_self" rel="follow" aria-label="Learn more about Indoor Activity"
+                        style="text-decoration: none; color: #3f43fd;">
+                        Let's find out
+                        <i class="bi bi-chevron-compact-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Picnic Games Info End-->
+
+    <!--Creators Card-->
+    <section class="bg-light">
+        <div class="container pt-md-5">
+            <div class="text-center pt-4 wow fadeInUp" data-wow-delay="0.2s"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <h2>Our Creative Creators</h2>
+                <p class="lead text-muted">These creators are credit to this website</p>
+            </div>
+
+            <div class="row justify-content-center justify-content-md-around align-items-center">
+                <!-- First Creator-->
+                <div class="col-12 col-sm-6 col-md-4  col-lg-3">
+                    <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <!-- Team Thumb-->
+                        <div class="advisor_thumb"><img src="img/First Creator.jpg" style="width: 100%;"
+                                alt="First Creator" />
+                            <!-- Social Info-->
+                            <div class="social-info">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <!-- Team Details-->
+                        <div class="single_advisor_details_info">
+                            <h6>Võ Tuấn Huy</h6>
+                            <p class="designation">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- First Creator End-->
+
+                <!-- Second Creator-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <!-- Team Thumb-->
+                        <div class="advisor_thumb"><img src="img/Second Creator.jpg" style="width: 100%;"
+                                alt="Second Creator" />
+                            <!-- Social Info-->
+                            <div class="social-info">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <!-- Team Details-->
+                        <div class="single_advisor_details_info">
+                            <h6>Sar Lavi</h6>
+                            <p class="designation">Script Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Creator End-->
+
+                <!-- Third Creator-->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <!-- Team Thumb-->
+                        <div class="advisor_thumb"><img src="img/Third Creator.jpg" style="width: 100%;"
+                                alt="Third Creator" />
+                            <!-- Social Info-->
+                            <div class="social-info">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <!-- Team Details-->
+                        <div class="single_advisor_details_info">
+                            <h6>Lê Đàm Quân</h6>
+                            <p class="designation">Tester</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Creator End-->
+            </div>
+        </div>
+    </section>
+    <!--Creators Card END-->
+
+    <!--Register-->
+
+    <section class="bg-ligt m-5 p-4">
+        <div class="text-center">
+            <h2>Keep In Touch With Us</h2>
+            <p class="lead">
+                We will anncounce the lastest update as they happen...
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-3" style="font-size: 25px;">
+                    "The only thing is quality of life, if you have a place where you can go and have a picnic with your
+                    family, it doesn’t matter if it’s a recession or not, you can include that in your quality of life."
+                </p>
+                <button class="btn" style="background-color: #ff474c; color: white;" data-bs-toggle="modal"
+                    data-bs-target="#reg-modal">
+                    Register for Updates
+                </button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Modal itself-->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the Lastest Updates</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Hi There!
+                        <br><br>
+                        If there are any difficulties in understading the games, please leave your email, we'll
+                        contact you shortly for further details.
+                        <br>
+                    </p>
+
+                    <label for="modal-email" class="form-label">Your email address : </label>
+                    <input type="email" id="modal-email" name="modal-email" class="form-control"
+                        placeholder="e.g. abc@example.com" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted"></small>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn" name="required" id="required" value="validate" onclick="required();"
+                        style="background-color: #ff474c; color: white;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal itself End-->
+    <!--Register End-->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-white">
+
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-around pt-1">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col col-md-3 text-center col-lg-2 col-xl-1 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4" style="color: #ff474c;">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Activities</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">FAQS</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact Us</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4" style="color: #ff474c;">
+                            Contact Us
+                        </h6>
+                        <p>
+                            <i class="fas fa-home me-3"></i>
+                            590 Cách Mạng Tháng Tám, Phường 11, Quận 3, Thành phố Hồ Chí
+                            Minh 723564
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> 1800-1779</p>
+                        <p><i class="fas fa-print me-3"></i> 1800-1779</p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 col-lg-6 mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold" style="color: #ff474c;">
+                            <i class="fas fa-gem me-3"></i>Address
+                        </h6>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.2773997461!2d106.6662743!3d10.7868348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1sen!2s!4v1637962975771!5m2!1sen!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+
+
+
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span style="color: #ff474c;">Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a class="btn btn-outline-light btn-floating m-1 " href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> by Picnic Games. All rights reserved
+            <div class="d-block d-md-inline-block">
+                <a href="#" class="text-reset p-4" style="text-decoration: none;">Privacy Policy</a>
+                <a href="#" class="text-reset " style="text-decoration: none;">Term & Use</a>
+            </div>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
