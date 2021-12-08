@@ -129,7 +129,7 @@ iframe{
 
 
 /* (---------button send (commet form)------) */
-button {
+#send {
     font-family: inherit;
     font-size: 20px;
     background: royalblue;
@@ -144,31 +144,31 @@ button {
     transition: all 0.2s;
    }
    
-   button span {
+   #send span {
     display: block;
     margin-left: 0.3em;
     transition: all 0.3s ease-in-out;
    }
    
-   button svg {
+   #send svg {
     display: block;
     transform-origin: center center;
     transition: transform 0.3s ease-in-out;
    }
    
-   button:hover .svg-wrapper {
+   #send:hover .svg-wrapper {
     animation: fly-1 0.6s ease-in-out infinite alternate;
    }
    
-   button:hover svg {
+   #send:hover svg {
     transform: translateX(1.2em) rotate(45deg) scale(1.1);
    }
    
-   button:hover span {
+   #send:hover span {
     transform: translateX(5em);
    }
    
-   button:active {
+   #send:active {
     transform: scale(0.95);
    }
    
