@@ -5,41 +5,43 @@
 
 /*(----------Navbar-CSS---------)*/
 * {
-    margin: 0;
-    padding: 0;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .header {
-    background-image: url("../img/FAQs_header.jpg");
+    background-image: url("../img/FAQs_header.jpg");  /* background picture */
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
     display: block;
-    border: thin solid white;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+    position: relative;
+}
+
+iframe{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+    width: 100%;
+    margin-top: 1rem;
+}
 }
 
 .navbar {
-    background-color: transparent !important;
-    transition: 0.7s ease;
-}
-
-.navbar.scrolled {
-    background:#353839 !important;
+    background-color: rgba(116, 113, 113, 0.459) !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .img {
     margin-right: 1rem;
-}
-
-.lead{
-    font-style: italic;
-}
-
-.img:hover{
-    transform: rotate(-5deg);
-    transition: linear 0.4s;
 }
 
 @media only screen and (min-width: 1000px) {
