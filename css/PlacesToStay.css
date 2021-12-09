@@ -47,7 +47,6 @@ iframe{
 
 @media only screen and (max-width: 1000px) {
     .img {
-    
     width: 40px;
     margin-right: 1rem;
 }
@@ -57,7 +56,31 @@ iframe{
     .navbar-nav{
         background-color: black !important;
         padding-left: 10px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
     }
+}
+
+@media only screen and (min-width: 1024px) {
+    #intro-info:nth-of-type(odd){
+        border-left: medium solid grey;
+        border-bottom: medium solid grey ;
+        border-radius: 2ch;
+        padding-bottom: 2ch;
+    }
+
+    #intro-info:nth-of-type(even){
+        border-right: medium solid grey;
+        border-bottom: medium solid grey ;
+        border-radius: 2ch;
+        padding-bottom: 2ch;
+    }
+
 }
 
 
