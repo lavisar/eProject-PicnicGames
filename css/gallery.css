@@ -5,13 +5,12 @@
 }
 
 .header {
-    background-image: url("../img/FAQs_header.jpg");  /* background picture */
+    background-image: url("../img/gallery/header.jpg");  /* background picture */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
     display: block;
-    background-color: rgba(255,255,255,0.3);
     background-blend-mode: lighten;
     position: relative;
 }
