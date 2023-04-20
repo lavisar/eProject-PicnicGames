@@ -18,7 +18,7 @@ Project title: Picnic Games website
                  
 ============================
 
-github report link: https://github.com/lavisar/eProject-PicnicGames/tree/master/Document
+Documentation: https://github.com/lavisar/eProject-PicnicGames/tree/master/Document
 
 ============================
 
