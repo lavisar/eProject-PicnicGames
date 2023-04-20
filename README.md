@@ -1,14 +1,13 @@
-# eProject
 # T1.2109.E0-eProject-Group_4
 Batch no.: T1.2109.E0
 
 CENTER NAME: ACE-HCMC-2-FPT
 
-Project title: Picnic Games website
+## Project title: Picnic Games website
+* Documentation: https://github.com/lavisar/eProject-PicnicGames/tree/master/Document
+* eProject published at: https://lavisar.github.io/eProject-PicnicGames/
 
-========> Group 4 <=========
-
-3 collaborators: 
+## Collaborators: 
 
                  Le Dam quan (quanldts2109022@fpt.edu.vn) Student1334013
 
@@ -16,14 +15,8 @@ Project title: Picnic Games website
                  
                  Vo Tuan Huy (huyvtts2109016@fpt.edu.vn)  Student1322496
                  
-============================
 
-Documentation: https://github.com/lavisar/eProject-PicnicGames/tree/master/Document
+## Techonology
+![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap)
 
-============================
-
-eProject published at: https://lavisar.github.io/eProject-PicnicGames/
-
-============================
-
-Thank you for spending your time to look at our work.
+Thank you for spending your time to look at our work!
